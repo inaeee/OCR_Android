@@ -35,9 +35,9 @@
 1. ProgressCircleDialog.java & res>values>styles 의 newDialog 필수값
 
 &nbsp;&nbsp;&nbsp; (MainActivity.java)
-1. dispatchTakePictureIntent function : 기본 카메라 어플 실행 및 사진 촬영
-2. DrawOn function : 텍스트 사각형 그리기
-3. rotateImage function : 사진 회전
-4. PermissionCheck function : 특정 버전 이상일 경우에는 권한 체크 및 요청 
-5. Tesseract function : 언어 파일 경로 설정 후 트레이닝데이터가 카피되어있는지 확인, TessBaseAPI 호출
+1. dispatchTakePictureIntent : 기본 카메라 어플 실행 및 사진 촬영
+2. DrawOn : 텍스트 사각형 그리기
+3. rotateImage : 사진 회전
+4. PermissionCheck : 특정 버전 이상일 경우에는 권한 체크 및 요청 
+5. Tesseract : 언어 파일 경로 설정 후 트레이닝데이터가 카피되어있는지 확인, TessBaseAPI 호출
 
